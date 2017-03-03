@@ -8,7 +8,7 @@
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="chatroom"/>
-      <table id="2" parent="1" name="account"/>
+      <table id="2" parent="1" name="user"/>
       <column id="3" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
