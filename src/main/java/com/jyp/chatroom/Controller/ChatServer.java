@@ -67,7 +67,7 @@ public class ChatServer {
      * "content" : "xxx",
      * "time" : "xxxx.xx.xx"
      *  },
-     * "type" : {notice|message},
+     * "type" : {notice|message|image},
      * "list" : {[xx],[xx],[xx]}
      * @param _message 客户端发送过来的消息
      */
